@@ -47,4 +47,9 @@ variable "tfe_workspace_name" {
   description = "(Required) Terraform Cloud workspace name."
 }
 
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) URL of the playbook repository."
+}
+
 
